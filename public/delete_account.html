@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Delete Account - Government Quizzy App</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .content-section {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 20px 0;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .reverse { flex-direction: row-reverse; }
+            .content-section img { max-width: 100%; height: auto; border-radius: 8px; }
+            .content-section h2 { color: #dc3545; } /* Red for emphasis on deletion */
+            @media (max-width: 768px) {
+                .content-section { flex-direction: column; text-align: center; }
+                .reverse { flex-direction: column; }
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container">
+                <a class="navbar-brand text-primary fw-bold" href="#">Government Quizzy App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="privacy_policy.html">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms_conditions.html">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="delete_account.html">How to</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Delete Account Page Content -->
+        <div class="container my-5">
+            <h1 class="text-center text-danger">Delete Account</h1>
+            <p class="text-center">Understand the consequences of deleting your account.</p>
+
+            <!-- Section 1: Text on left, image on right -->
+            <section class="content-section">
+                <div class="text">
+                    <h2>Are You Sure?</h2>
+                    <p>Deleting your account will permanently erase your data and progress. This action cannot be undone.</p>
+                </div>
+            </section>
+
+            <!-- Section 3: Text on left, image on right -->
+            <section class="d-flex justify-content-around align-items-center my-5">
+                <div class="text w-50">
+                    <h3>Open Drawer</h3>
+                </div>
+                <div class="image">
+                    <img class="img-fluid" src="assets/img/delete-1.png" style="height: 400px;" alt="Support team illustration">
+                </div>
+            </section>
+
+            <!-- Section 3: Text on left, image on right -->
+            <section class="d-flex justify-content-around align-items-center my-5">
+                <div class="text w-50">
+                    <h3>In Drawer Tap on Delete Account Tab</h3>
+                </div>
+                <div class="image">
+                    <img class="img-fluid" src="assets/img/delete-2.png"  style="height: 400px;" alt="Support team illustration">
+                </div>
+            </section>
+
+            <!-- Section 3: Text on left, image on right -->
+            <section class="d-flex justify-content-around align-items-center my-5">
+                <div class="text w-50">
+                    <h3>Write the text in the Textbox in capital letter CONFIRM to delet your account</h3>
+                </div>
+                <div class="image">
+                    <img class="img-fluid" src="assets/img/delete-3.png"  style="height: 400px;" alt="Support team illustration">
+                </div>
+            </section>
+            
+
+            <!-- Section 3: Text on left, image on right -->
+            <section class="content-section">
+                <div class="text">
+                    <h2>Need Help?</h2>
+                    <p>If you have any concerns about your account, reach out to our support team before proceeding with deletion.</p>
+                    <a href="mailto:abrarkhira772@gmail.com.com" class="btn btn-primary">Contact Support</a>
+                </div>
+                <div class="image">
+                    <img class="img-fluid" src="assets/png/customer-service.png"  style="height: 100px;" alt="Support team illustration">
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-light py-3">
+            <div class="container text-center">
+                <p>&copy; 2024 Government Quizzy App. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
